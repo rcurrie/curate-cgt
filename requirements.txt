@@ -1,0 +1,5 @@
+pytest
+pyvcf
+git+git://github.com/ga4gh/schemas
+protobuf
+pystream-protobuf
