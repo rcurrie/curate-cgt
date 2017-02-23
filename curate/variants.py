@@ -1,7 +1,7 @@
 import io
 import csv
-import cStringIO
-import vcf
+# import cStringIO
+# import vcf
 import ga4gh.schemas.ga4gh.variants_pb2 as ga4gh
 
 
@@ -28,15 +28,9 @@ def icgc2pb(input_stream):
     return output_stream
 
 
-def pb2vcf(input_stream):
-    output_stream = cStringIO.StringIO()
-    vcf_template = vcf.Reader(filename="tb.vcf.gz")
-    vcf_writer = vcf.Writer(output_stream, 'w'), vcf_template)
+# def pb2vcf(input_stream):
+#     output_stream = cStringIO.StringIO()
+#     vcf_template = vcf.Reader(filename="tb.vcf.gz")
+#     vcf_writer = vcf.Writer(output_stream, 'w'), vcf_template)
 
-    for
-
-    return output_stream
-
-
-
-
+#     return output_stream
